@@ -35,8 +35,7 @@ body{
 }
 
 .loading--img{
-    width: 30%;
-    height: 40%;
+  height: 40%;
 }
 
 .notResidents{
@@ -86,11 +85,11 @@ body{
 
 .nav--header{
   width: 90%;
-  height: 15%;
+  height: 12%;
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 1.8rem;
+  bottom: 2.3rem;
 }
 
 .input--header{
