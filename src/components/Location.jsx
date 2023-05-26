@@ -22,7 +22,7 @@ const Location = () => {
         axios.get(`https://rickandmortyapi.com/api/location/${random}`)
             .then(res => {
                 setLocation(res.data)
-                setIsLoading(true)
+                setIsLoading(false)
             });
     }, [])
 
